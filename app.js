@@ -56,3 +56,17 @@
 // const numbers = [3, 4, 7, 9, 10];
 // const odd = numbers.filter((el) => el % 2 !== 0);
 // console.log(odd);
+
+// find()
+const fruits = ["Custard Apple", "Guava", "Lichi", "Pomgranet", "Dragon Fruit ", "Apple"];
+const fruit = fruits.find((fruit) => fruit.endsWith("a"));
+const fruitIndex = fruits.findIndex((fruit) => fruit.startsWith("P"));
+console.log(fruit);
+console.log(fruitIndex);
+
+// some()
+const friends = ["Lili", "Ruhi", "Mimi", "Ariya"];
+const output = friends.some((friend) => friend.endsWith("i"));
+const output2 = friends.every((friend) => friend.endsWith("i"));
+console.log(output);
+console.log(output2);
