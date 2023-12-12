@@ -32,3 +32,17 @@
 // // splice(): Will cut the numbers from array acording to index number & count number also deletes the number from main array.
 // const spliceArr = arr.splice(0, 7);
 // console.log(spliceArr);
+
+// forEach ()
+
+// Example-1
+const nums = [11, 5.5, 59, 31, 75, 41];
+let sum = 0;
+nums.forEach((el) => (sum += el));
+console.log(sum);
+
+// Example-2
+const temperature = [2, 6, 8, 12, 18];
+let product = 1;
+temperature.forEach((el) => (product *= el));
+console.log(product);
