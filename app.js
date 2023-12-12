@@ -57,16 +57,31 @@
 // const odd = numbers.filter((el) => el % 2 !== 0);
 // console.log(odd);
 
-// find()
-const fruits = ["Custard Apple", "Guava", "Lichi", "Pomgranet", "Dragon Fruit ", "Apple"];
-const fruit = fruits.find((fruit) => fruit.endsWith("a"));
-const fruitIndex = fruits.findIndex((fruit) => fruit.startsWith("P"));
-console.log(fruit);
-console.log(fruitIndex);
+// // find()
+// const fruits = ["Custard Apple", "Guava", "Lichi", "Pomgranet", "Dragon Fruit ", "Apple"];
+// const fruit = fruits.find((fruit) => fruit.endsWith("a"));
+// const fruitIndex = fruits.findIndex((fruit) => fruit.startsWith("P"));
+// console.log(fruit);
+// console.log(fruitIndex);
 
-// some()
-const friends = ["Lili", "Ruhi", "Mimi", "Ariya"];
-const output = friends.some((friend) => friend.endsWith("i"));
-const output2 = friends.every((friend) => friend.endsWith("i"));
-console.log(output);
-console.log(output2);
+// // some()
+// const friends = ["Lili", "Ruhi", "Mimi", "Ariya"];
+// const output = friends.some((friend) => friend.endsWith("i"));
+// const output2 = friends.every((friend) => friend.endsWith("i"));
+// console.log(output);
+// console.log(output2);
+
+// // Chaining Method
+// const newArr = [7, 5, 2, 3, 1, 6, 8];
+// let sum = 0;
+// const newNum = newArr.map((num) => num * 2).filter((num) => num > 10).forEach((num) => (sum += num));
+// console.log(sum);
+
+// Reduce
+const myNumbers = [10, 20, 30, 40, 50];
+const sum = myNumbers.reduce((sum, num) => (sum += num));
+console.log(sum);
+
+// Reduce Right
+const product = myNumbers.reduceRight((product, num) => (product *= num));
+console.log(product);
