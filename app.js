@@ -35,14 +35,24 @@
 
 // forEach ()
 
-// Example-1
-const nums = [11, 5.5, 59, 31, 75, 41];
-let sum = 0;
-nums.forEach((el) => (sum += el));
-console.log(sum);
+// // Example-1
+// const nums = [11, 5.5, 59, 31, 75, 41];
+// let sum = 0;
+// nums.forEach((el) => (sum += el));
+// console.log(sum);
 
-// Example-2
-const temperature = [2, 6, 8, 12, 18];
-let product = 1;
-temperature.forEach((el) => (product *= el));
-console.log(product);
+// // Example-2
+// const temperature = [2, 6, 8, 12, 18];
+// let product = 1;
+// temperature.forEach((el) => (product *= el));
+// console.log(product);
+
+// // map()
+// const areas = [5, 4, 7, 9, 10];
+// const result = areas.map((areas) => areas * areas);
+// console.log(result);
+
+// // filter()
+// const numbers = [3, 4, 7, 9, 10];
+// const odd = numbers.filter((el) => el % 2 !== 0);
+// console.log(odd);
